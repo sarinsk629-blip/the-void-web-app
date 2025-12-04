@@ -41,10 +41,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <head>
-        <title>The Void | The Anti-Social Network</title>
-        <meta name="google-site-verification" content="ettceV2fs9TnQV7bqXvT03Q1FFH9pNu2BxqjUDwKDMc" />
-      </head>
       <body className={`${robotoMono.variable} font-mono antialiased bg-black min-h-screen`}>
         {children}
         <Analytics />
