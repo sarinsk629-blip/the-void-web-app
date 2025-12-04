@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: "Find your soulmate through trauma, not selfies. An AI experiment powered by Gemini 3 Pro.",
   keywords: ["soul connection", "anti-social media", "authentic connection", "digital revolution", "AI soulmate"],
   verification: {
-    google: "_Um8Gl6Th73GEedz0phgvSWY3unRyFl2JTYmG_yKPAE",
+    google: "ettceV2fs9TnQV7bqXvT03Q1FFH9pNu2BxqjUDwKDMc",
   },
   openGraph: {
     title: "The Void | The Anti-Social Network",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "The Void | The Anti-Social Network",
     description: "Find your soulmate through trauma, not selfies. An AI experiment powered by Gemini 3 Pro.",
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export const viewport = {
@@ -43,7 +43,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
         <title>The Void | The Anti-Social Network</title>
-        <meta name="google-site-verification" content="_Um8Gl6Th73GEedz0phgvSWY3unRyFl2JTYmG_yKPAE" />
+        <meta name="google-site-verification" content="ettceV2fs9TnQV7bqXvT03Q1FFH9pNu2BxqjUDwKDMc" />
       </head>
       <body className={`${robotoMono.variable} font-mono antialiased bg-black min-h-screen`}>
         {children}
