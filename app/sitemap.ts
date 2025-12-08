@@ -1,6 +1,6 @@
-import type { MetadataSite } from "next"
+import type { MetadataRoute } from "next"
 
-export default function sitemap(): MetadataSite[] {
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: "https://the-void-web-app.vercel.app",
