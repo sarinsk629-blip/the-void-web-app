@@ -1,5 +1,5 @@
-import SoulSyncApp from "@/components/soul-sync-app"
+import { VibeApp } from "@/components/vibe-app"
 
 export default function Home() {
-  return <SoulSyncApp />
+  return <VibeApp />
 }

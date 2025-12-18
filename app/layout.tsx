@@ -1,36 +1,36 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Roboto_Mono } from "next/font/google"
+import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const robotoMono = Roboto_Mono({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-sans",
 })
 
 export const metadata: Metadata = {
-  title: "The Void | The Anti-Social Network",
-  description: "Find your soulmate through trauma, not selfies. An AI experiment powered by Gemini 3 Pro.",
-  keywords: ["soul connection", "anti-social media", "authentic connection", "digital revolution", "AI soulmate"],
+  title: "Vibe | AI Social Chat",
+  description: "Connect with AI companions and meet new people. The future of social interaction.",
+  keywords: ["AI chat", "social network", "AI companion", "meet people", "chat app", "social AI"],
   verification: {
     google: "ettceV2fs9TnQV7bqXvT03Q1FFH9pNu2BxqjUDwKDMc",
   },
   openGraph: {
-    title: "The Void | The Anti-Social Network",
-    description: "Find your soulmate through trauma, not selfies. An AI experiment powered by Gemini 3 Pro.",
+    title: "Vibe | AI Social Chat",
+    description: "Connect with AI companions and meet new people. The future of social interaction.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Void | The Anti-Social Network",
-    description: "Find your soulmate through trauma, not selfies. An AI experiment powered by Gemini 3 Pro.",
+    title: "Vibe | AI Social Chat",
+    description: "Connect with AI companions and meet new people. The future of social interaction.",
   },
   generator: "v0.app",
 }
 
 export const viewport = {
-  themeColor: "#000000",
+  themeColor: "#0f0a1a",
   colorScheme: "dark",
 }
 
@@ -41,7 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${robotoMono.variable} font-mono antialiased bg-black min-h-screen`}>
+      <body className={`${inter.variable} font-sans antialiased bg-background min-h-screen`}>
         {children}
         <Analytics />
       </body>
