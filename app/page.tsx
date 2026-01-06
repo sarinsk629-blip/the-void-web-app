@@ -1,5 +1,5 @@
-import { VibeApp } from "@/components/vibe-app"
+import { MharmyrauxApp } from "@/components/mharmyraux-app"
 
 export default function Home() {
-  return <VibeApp />
+  return <MharmyrauxApp />
 }
